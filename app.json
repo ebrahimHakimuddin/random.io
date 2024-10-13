@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "randomizer",
-    "slug": "randomizer",
+    "name": "random.io",
+    "slug": "random.io",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
