@@ -19,22 +19,19 @@ function SearchIcon() {
 
 function NavBar() {
   return (
-    <div className="navbar bg-base-100 p-3 shadow-lg">
-      <div className="flex-1">
+    <div className="navbar bg-base-100 p-3 shadow-lg justify-between">
+      <div className="">
         <a className="cursor-pointer font-semibold text-xl" href="/">
           random.io
         </a>
       </div>
-      <div className="flex-none">
-        <div className="form-control flex flex-row items-center gap-4">
-          <div className="md:hidden btn btn:ghost">
-            <SearchIcon />
-          </div>
-          <div className="hidden">
+      <div className="">
+        <div className="form-control">
+          <div className="">
             <input
               type="text"
               placeholder="Search"
-              className="input input-bordered w-24 md:w-auto"
+              className="input input-bordered w-[150px] md:w-auto"
             />
           </div>
         </div>
