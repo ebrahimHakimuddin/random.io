@@ -7,10 +7,12 @@
 - DasiyUI
 
 ### TODO
-- [ ] Implement NavBar
-- [ ] Implement HomePage
+- [x] Implement NavBar
+- [x] Implement HomePage
+- [x] DB Connection For Cards
+- [x] Make Cards appear on the Homepage based on data from DB
+- [ ] Implement Footer
 - [ ] Implement Numbers Randomizer
 - [ ] Implement Teams Randomizer
 - [ ] Implement Dice Roll
 - [ ] Implement A way for Names to be save for Team Randomizer
-<!-- - [ ]  -->

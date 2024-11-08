@@ -1,12 +1,19 @@
 import LinkCard from "./components/linkCard/linkCard";
-export default function Home() {
-  return (
+import getCards from "./db/queries";
+
+export default async function Home() {
+  const cards = await getCards();
+
+  return await (
     <div className="">
       <div className="flex justify-center flex-wrap lg:flex-nowrap p-10 flex-row gap-8">
-        <LinkCard />
-        <LinkCard />
-        <LinkCard />
-        <LinkCard />
+        {cards.map((card) => {
+          return (
+            <div key={card.id}>
+              <LinkCard {...card} />
+            </div>
+          );
+        })}
       </div>
     </div>
   );
