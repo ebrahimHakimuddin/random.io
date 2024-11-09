@@ -11,6 +11,8 @@
 - [x] Implement HomePage
 - [x] DB Connection For Cards
 - [x] Make Cards appear on the Homepage based on data from DB
+- [x] Make Cards look nice
+- [x] Make Card grid responsive.
 - [ ] Implement Footer
 - [ ] Implement SearchBar
 - [ ] Implement Numbers Randomizer
