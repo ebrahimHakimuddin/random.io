@@ -12,6 +12,7 @@
 - [x] DB Connection For Cards
 - [x] Make Cards appear on the Homepage based on data from DB
 - [ ] Implement Footer
+- [ ] Implement SearchBar
 - [ ] Implement Numbers Randomizer
 - [ ] Implement Teams Randomizer
 - [ ] Implement Dice Roll

@@ -14,7 +14,9 @@
   }
 }
 
-body {
+html {
+  width: 100vw;
+  height: 100vh;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
