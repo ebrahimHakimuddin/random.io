@@ -19,7 +19,7 @@ function SearchIcon() {
 
 function NavBar() {
   return (
-    <div className="navbar bg-base-100 p-3 shadow-lg justify-between">
+    <div className="navbar fixed bg-base-100 p-3 shadow-lg justify-between">
       <div className="">
         <a className="cursor-pointer font-semibold text-xl" href="/">
           random.io
