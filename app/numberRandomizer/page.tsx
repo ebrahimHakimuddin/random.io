@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+export const dynamic = "force-dynamic";
 let count = 0;
 export default function NumberRandomizer() {
   const [value, setValue] = useState<string>("");
@@ -14,7 +15,6 @@ export default function NumberRandomizer() {
   };
 
   function genModal() {
-    
     const numberDialog = document.getElementById(
       "numberModal"
     )! as HTMLDialogElement;

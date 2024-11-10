@@ -1,7 +1,7 @@
 import LinkCard from "./components/linkCard/linkCard";
 import getCards from "./db/queries";
 
-const dynamic = "use-dynamic";
+export const dynamic = "force-dynamic";
 export default async function Home() {
   const cards = await getCards();
 
