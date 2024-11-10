@@ -13,9 +13,9 @@
 - [x] Make Cards appear on the Homepage based on data from DB
 - [x] Make Cards look nice
 - [x] Make Card grid responsive.
+- [x] Implement Numbers Randomizer
 - [ ] Implement Footer
 - [ ] Implement SearchBar
-- [ ] Implement Numbers Randomizer
 - [ ] Implement Teams Randomizer
 - [ ] Implement Dice Roll
 - [ ] Implement A way for Names to be save for Team Randomizer
