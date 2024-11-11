@@ -1,12 +1,13 @@
 "use client";
-import { useEffect, useState } from "react";
 export const dynamic = "force-dynamic";
-let count = 0;
+import { useEffect, useState } from "react";
+
 export default function NumberRandomizer() {
   const [value, setValue] = useState<string>("");
   const [numberList, setNumberList] = useState<number[]>([]);
   const [number, setNumber] = useState<string>("");
 
+  //Makes sure the "value" in the field is always a number
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const inputValue = e.target.value;
     if (/^\d*$/.test(inputValue)) {
@@ -14,6 +15,7 @@ export default function NumberRandomizer() {
     }
   };
 
+  //In h
   function genModal() {
     const numberDialog = document.getElementById(
       "numberModal"
@@ -27,22 +29,25 @@ export default function NumberRandomizer() {
       endDialog.showModal();
       return;
     }
-
     const randomIndex = Math.floor(Math.random() * numberList.length);
     setNumber(numberList[randomIndex].toString());
-
     const updatedList = [...numberList];
     updatedList.splice(randomIndex, 1);
     setNumberList(updatedList);
 
     numberDialog.showModal();
   }
+
+  // Basically just checks for the input value and makes a list from that.
   useEffect(() => {
-    if (numberList.length > 0 && count === 0) {
-      count++;
-      genModal();
-    }
-  }, [numberList]);
+    const tempNumberList = Array.from(
+      { length: Number(value) },
+      (_, i) => i + 1
+    );
+    setNumberList(tempNumberList);
+  }, [value]);
+
+  //Handles the logic of the first click, checking the "value" to be a non-negative number and be greater than 0, and hence generating the modal to appear.
   const handleClick = () => {
     const parsedValue = parseInt(value, 10);
 
@@ -54,11 +59,6 @@ export default function NumberRandomizer() {
       return;
     }
 
-    const tempNumberList = Array.from(
-      { length: Number(value) },
-      (_, i) => i + 1
-    );
-    setNumberList(tempNumberList);
     genModal();
   };
 

@@ -11,9 +11,11 @@
 - [x] Implement HomePage
 - [x] DB Connection For Cards
 - [x] Make Cards appear on the Homepage based on data from DB
-- [x] Make Cards look nice
-- [x] Make Card grid responsive.
-- [x] Implement Numbers Randomizer
+- [x] Make Cards Look Nice
+- [x] Make Card Grid Responsive.
+- [x] Implement List Numbers Randomizer
+- [ ] Implement A Number Generator From A Range 
+- [ ] Fix Card Grid On Home Page
 - [ ] Implement Footer
 - [ ] Implement SearchBar
 - [ ] Implement Teams Randomizer
