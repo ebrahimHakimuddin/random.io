@@ -16,13 +16,13 @@ export default async function uploadForm() {
 
   if (session?.user!.name === process.env.AUTH_USER_UPLOADFORM) {
     return (
-      <form
-        action={async (formData) => {
-          "use server";
-          const result = await postCards(formData);
-        }}
-      >
-        <div className="flex flex-col p-20 h-screen justify-center items-center">
+      <div className="flex flex-col  h-screen justify-center items-center">
+        <form
+          action={async (formData) => {
+            "use server";
+            const result = await postCards(formData);
+          }}
+        className="p-5">
           <div className="card p-5 bg-base-500 border-2">
             <div className="p-5">
               <input
@@ -55,8 +55,7 @@ export default async function uploadForm() {
                 className="input input-bordered size-24 p-2 w-full max-w-xs"
               />
             </div>
-            <div className="flex flex-row justify-between">
-              <SignOut />
+            <div className="flex flex-row justify-center">
               <div className="w-30">
                 <button
                   type="submit"
@@ -67,8 +66,9 @@ export default async function uploadForm() {
               </div>
             </div>
           </div>
-        </div>
-      </form>
+        </form>
+        <SignOut />
+      </div>
     );
   } else {
     return (
