@@ -14,6 +14,8 @@
 - [x] Make Cards Look Nice
 - [x] Make Card Grid Responsive.
 - [x] Implement List Numbers Randomizer
+- [x] Add Auth And A Way To Add New Cards
+- [ ] Make Upload Form Better
 - [ ] Implement A Number Generator From A Range 
 - [ ] Fix Card Grid On Home Page
 - [ ] Implement Footer

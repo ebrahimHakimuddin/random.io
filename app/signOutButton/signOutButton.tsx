@@ -1,6 +1,5 @@
 import { signOut } from "../auth";
 
-
 export default function SignOut() {
   return (
     <form
@@ -9,9 +8,11 @@ export default function SignOut() {
         await signOut();
       }}
     >
-      <button type="submit" className="btn btn-active">
-        SignOut
-      </button>
+      <div className="w-30">
+        <button type="submit" className="btn btn-secondary rounded text-xl text-nowrap">
+          Sign Out
+        </button>
+      </div>
     </form>
   );
 }

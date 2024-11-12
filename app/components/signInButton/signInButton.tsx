@@ -8,7 +8,8 @@ export default function SignIn() {
         await signIn("github");
       }}
     >
-      <button type="submit" className="btn btn-active">Login
+      <button type="submit" className="btn btn-active">
+        Login
       </button>
     </form>
   );
