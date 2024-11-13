@@ -15,11 +15,11 @@
 - [x] Make Card Grid Responsive.
 - [x] Implement List Numbers Randomizer
 - [x] Add Auth And A Way To Add New Cards
-- [ ] Make Upload Form Better
-- [ ] Implement A Number Generator From A Range 
+- [x] Make Upload Form Better
+- [ ] Implement Teams Randomizer
+- [ ] Implement A way for Names to be save for Team Randomizer
 - [ ] Fix Card Grid On Home Page
 - [ ] Implement Footer
 - [ ] Implement SearchBar
-- [ ] Implement Teams Randomizer
 - [ ] Implement Dice Roll
-- [ ] Implement A way for Names to be save for Team Randomizer
+- [ ] Implement A Number Generator From A Range 

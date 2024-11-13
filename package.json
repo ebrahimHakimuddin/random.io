@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@3d-dice/dice-box": "^1.1.4",
     "@nextui-org/react": "^2.4.8",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@vercel/postgres": "^0.10.0",
