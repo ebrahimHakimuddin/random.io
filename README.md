@@ -16,10 +16,12 @@
 - [x] Implement List Numbers Randomizer
 - [x] Add Auth And A Way To Add New Cards
 - [x] Make Upload Form Better
-- [ ] Implement Teams Randomizer
-- [ ] Implement A way for Names to be save for Team Randomizer
+- [x] Implement Teams Randomizer
+- [x] Fix Navbar on HomePage
+- [ ] Reimplement The Teams Randomizer 
+- [ ] Implement A way for Names to be saved for Team Randomizer
 - [ ] Fix Card Grid On Home Page
-- [ ] Implement Footer
 - [ ] Implement SearchBar
-- [ ] Implement Dice Roll
 - [ ] Implement A Number Generator From A Range 
+- [ ] Implement Dice Roll
+- [ ] <s>Implement Footer</s>
