@@ -129,7 +129,9 @@ export default function DynamicInputForm() {
             value={input}
             className="w-[200px] rounded p-3"
             onChange={(e) => handleInputChange(index, e)}
-            ref={(el) => (inputRefs.current[index] = el)}
+            ref={(el) => {
+              inputRefs.current[index] = el;
+            }}
             onKeyDown={(e) => handleKeyDown(index, e)}
           />
         </div>
